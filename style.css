@@ -7,6 +7,10 @@ h1 {
     font-size: 55px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange {
     color: rgb(250, 173, 29);
 }
@@ -47,4 +51,39 @@ h1 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+}
+
+.flex {
+    display: flex;
+}
+
+.end-banner {
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+
+.experience {
+    padding-left: 6%;
+}
+
+.box {
+    border-left: 40px blue;
+    box-shadow: 10px 10px 40px rgba(128, 128, 128, 0.473);
+    margin: 4%;
+
+}
+
+.hal {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+footer p {
+    text-align: center;
+    color: gray;
 }
